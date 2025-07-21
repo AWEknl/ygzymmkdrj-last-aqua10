@@ -9,7 +9,7 @@ int suba()
 {
 	for (int i = 0; i < 40; i++)
 	{
-		cout << "©`";//Êä³öºáÏß*40
+		cout << "ãƒ¼";//è¾“å‡ºæ¨ªçº¿*40
 	}
 	cout << "EXPORT:";
 	cout << ab << endl;
@@ -17,16 +17,16 @@ int suba()
 }
 int ad()
 {
-	cout << "£ü";//Êä³öÊúÏß
+	cout << "ï½œ";//è¾“å‡ºç«–çº¿
 	return 1;
 }
 
-int Enter()//Êä³öEnter
+int Enter()//è¾“å‡ºEnter
 {
 	cout << "ENTER:";
 	return 1;
 }
-int jikan()//»ñÈ¡µ±Ç°Ê±¼ä
+int jikan()//è·å–å½“å‰æ—¶é—´
 {
 	now = time(0);
 	dt = ctime(&now);
@@ -36,230 +36,230 @@ int main()
 {
 	cout << "ygzymmkdrj,aqua9" << endl;
 	ofstream out; ofstream file;
-	string file_name = "reply.txt";//ÈÕÖ¾ÎÄ¼ş
+	string file_name = "reply.txt";//æ—¥å¿—æ–‡ä»¶
 	jikan();
 	file.open("reply.txt", ios::app | ios::in);
-	file << "START OF TIME by Execute Documents:";//´ò¿ªÈÕÖ¾ÎÄ¼ş
+	file << "START OF TIME by Execute Documents:";//æ‰“å¼€æ—¥å¿—æ–‡ä»¶
 	file << dt << endl;
-	cout << "Æô¶¯Ê±¼ä£º" << dt << endl;//Êä³öÆô¶¯Ê±¼ä
-	while (ab < 10)//Ö÷Ñ­»·,Ö±µ½ÊäÈë10»ò9ÍË³ö.
+	cout << "å¯åŠ¨æ—¶é—´ï¼š" << dt << endl;//è¾“å‡ºå¯åŠ¨æ—¶é—´
+	while (ab < 10)//ä¸»å¾ªç¯,ç›´åˆ°è¾“å…¥10æˆ–9é€€å‡º.
 	{
-		ab = 0;//³õÊ¼»¯ab
+		ab = 0;//åˆå§‹åŒ–ab
 		suba();
-		cout << "	¡¸£Í¡¡£Á¡¡£É¡¡£Î¡¹" << endl; ad();//Êä³öÖ÷²Ëµ¥
-		cout << "ÍË³ö10 and 9" << endl; ad();
-		cout << "¸üĞÂËµÃ÷1" << endl; ad();
-		cout << "¹ØÓÚ2" << endl; ad();
-		cout << "¼ÆËãÆ÷3" << endl; ad();
-		cout << "Çå¿ÕÈÕÖ¾ÎÄ¼ş4" << endl; ad();
-		cout << "Çå¿Õ¿ØÖÆÌ¨ÄÚÈİ5" << endl; ad();
-		cout << "¶ş´Î·½³Ì6" << endl; ad();
-		cout << "¶ş´Î·½³Ì×é7" << endl; ad();
-		cout << "°æ±¾ĞÅÏ¢8" << endl; ad();
-		cout << "°æ±¾ aqua " << endl; ad();
+		cout << "	ã€Œï¼­ã€€ï¼¡ã€€ï¼©ã€€ï¼®ã€" << endl; ad();//è¾“å‡ºä¸»èœå•
+		cout << "é€€å‡º10 and 9" << endl; ad();
+		cout << "æ›´æ–°è¯´æ˜1" << endl; ad();
+		cout << "å…³äº2" << endl; ad();
+		cout << "è®¡ç®—å™¨3" << endl; ad();
+		cout << "æ¸…ç©ºæ—¥å¿—æ–‡ä»¶4" << endl; ad();
+		cout << "æ¸…ç©ºæ§åˆ¶å°å†…å®¹5" << endl; ad();
+		cout << "äºŒæ¬¡æ–¹ç¨‹6" << endl; ad();
+		cout << "äºŒæ¬¡æ–¹ç¨‹ç»„7" << endl; ad();
+		cout << "ç‰ˆæœ¬ä¿¡æ¯8" << endl; ad();
+		cout << "ç‰ˆæœ¬ aqua " << endl; ad();
 		Enter();
-		cin >> ab;//ÊäÈëÑ¡Ôñ
+		cin >> ab;//è¾“å…¥é€‰æ‹©
 		switch (ab)
 		{
-		case 1://¸üĞÂËµÃ÷
+		case 1://æ›´æ–°è¯´æ˜
 			suba(); ad();
-			cout << "			¸üĞÂËµÃ÷¡¡¡¡	" << endl; ad();//Êä³ö¸üĞÂËµÃ÷
+			cout << "			æ›´æ–°è¯´æ˜ã€€ã€€	" << endl; ad();//è¾“å‡ºæ›´æ–°è¯´æ˜
 			cout << "ygzymmkdrj,class10 last-aqua1 2024.6.9 20:25" << endl; ad();
-			cout << "ÏîÄ¿ÖØÆô£¬Ê¹ÓÃC++±àĞ´" << endl; ad();
+			cout << "é¡¹ç›®é‡å¯ï¼Œä½¿ç”¨C++ç¼–å†™" << endl; ad();
 			cout << "aqua2 2024.6.10 12:00" << endl; ad();
-			cout << "Ìí¼Ó¼ÆËãÆ÷£¬Æô¶¯Ê±¼ä£¬ÊäÈëÊä³ö" << endl; ad();
+			cout << "æ·»åŠ è®¡ç®—å™¨ï¼Œå¯åŠ¨æ—¶é—´ï¼Œè¾“å…¥è¾“å‡º" << endl; ad();
 			cout << "aqua3 2024.6.23 23:26" << endl; ad();
-			cout << "¼òÒªÍêÉÆÁË¼ÆËãÆ÷¹¦ÄÜ£¬Ìí¼ÓÈÕÖ¾ÎÄ¼ş" << endl; ad();
+			cout << "ç®€è¦å®Œå–„äº†è®¡ç®—å™¨åŠŸèƒ½ï¼Œæ·»åŠ æ—¥å¿—æ–‡ä»¶" << endl; ad();
 			cout << "aqua4 2024.6.24 20:46" << endl; ad();
-			cout << "Ìí¼ÓÇå¿ÕÈÕÖ¾ÎÄ¼ş" << endl; ad(); 
+			cout << "æ·»åŠ æ¸…ç©ºæ—¥å¿—æ–‡ä»¶" << endl; ad(); 
 			cout << endl; ad(); 
-			cout << "---ÏÂÒ»Ò³---" << endl; ad();
+			cout << "---ä¸‹ä¸€é¡µ---" << endl; ad();
 			system("pause"); ad(); 
 			cout << endl; ad();
 			cout << "aqua5 2024.6.25 9:46" << endl; ad();
-			cout << "ĞŞ¸´BUG#1,ÓÅ»¯´úÂë" << endl; ad();
+			cout << "ä¿®å¤BUG#1,ä¼˜åŒ–ä»£ç " << endl; ad();
 			cout << "aqua6 2024.6.25 19:10" << endl; ad();
-			cout << "Ìí¼ÓÏîÄ¿Í¼£¬ÍêÉÆÒ³Ãæ" << endl; ad();
+			cout << "æ·»åŠ é¡¹ç›®å›¾ï¼Œå®Œå–„é¡µé¢" << endl; ad();
 			cout << "aqua7 2024.6.26 20:10" << endl; ad();
-			cout << "Ìí¼ÓÇå¿Õ¿ØÖÆÌ¨£¬½ÚÔ¼ÄÚ´æ" << endl; ad();
+			cout << "æ·»åŠ æ¸…ç©ºæ§åˆ¶å°ï¼ŒèŠ‚çº¦å†…å­˜" << endl; ad();
 			cout << "aqua8 2024.7.16 13:14" << endl; ad();
-			cout << "Ìí¼Ó¶ş´Î·½³Ì£¬ÏÂÒ»Ò³£¬ÓÅ»¯´úÂë" << endl; ad();
+			cout << "æ·»åŠ äºŒæ¬¡æ–¹ç¨‹ï¼Œä¸‹ä¸€é¡µï¼Œä¼˜åŒ–ä»£ç " << endl; ad();
 			cout << "aqua9 2024.10.6 19:39" << endl; ad();
-			cout << "Ìí¼Ó¶ş´Î·½³Ì×é" << endl; ad();
+			cout << "æ·»åŠ äºŒæ¬¡æ–¹ç¨‹ç»„" << endl; ad();
 			cout << "aqua10 2025.7.16 16:00" << endl; ad();
-			cout << "×îÖÕ¼òÒª¸üĞÂ" << endl; ad();
-			cout << "		£Â£Õ£Ç		" << endl; ad();
-			cout << "BUG#1£ºµ±ÊäÈë²»ÊÇÊı×ÖÊ±£¬»á²»¼ä¶ÏµØÖØ¸´MAINÒ³Ãæ." << endl; ad();
+			cout << "æœ€ç»ˆç®€è¦æ›´æ–°" << endl; ad();
+			cout << "		ï¼¢ï¼µï¼§		" << endl; ad();
+			cout << "BUG#1ï¼šå½“è¾“å…¥ä¸æ˜¯æ•°å­—æ—¶ï¼Œä¼šä¸é—´æ–­åœ°é‡å¤MAINé¡µé¢." << endl; ad();
 			cout << endl;
 			file << "TYPE:1	START OF TIME:";
 			jikan();
 			file << dt << endl;
 			continue;
-		case 2://¹ØÓÚ
+		case 2://å…³äº
 			suba(); ad();
-			cout << "			¹ØÓÚ		" << endl; ad();//Êä³ö¹ØÓÚ
-			cout << "ygzymmkdrj,class10 last-aqua Ö»ÊÇÎÒµÄÒ»¸öÏë·¨¡£" << endl; ad();
-			cout << "ygzymmkdrj,class10 last-aqua Ä¿Ç°Î´ÖªÓÃÍ¾¡£" << endl;
-			ad(); cout << endl; ad(); cout << "---ÏÂÒ»Ò³---" << endl; ad();
+			cout << "			å…³äº		" << endl; ad();//è¾“å‡ºå…³äº
+			cout << "ygzymmkdrj,class10 last-aqua åªæ˜¯æˆ‘çš„ä¸€ä¸ªæƒ³æ³•ã€‚" << endl; ad();
+			cout << "ygzymmkdrj,class10 last-aqua ç›®å‰æœªçŸ¥ç”¨é€”ã€‚" << endl;
+			ad(); cout << endl; ad(); cout << "---ä¸‹ä¸€é¡µ---" << endl; ad();
 			system("pause"); ad(); cout << endl; ad();
-			cout << "By£»AWEknl and..." << endl << endl;
-			cout << "¨€¨w¨€¨€¨€¨€¨w¨€¨€¨€¨€¨w¨€¨w¨€¨w¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨w¨€¨€¨w¨w¨w¨€¨€¨€¨€¨w¨€¨€" << endl;
-			cout << "¨€¨w¨€¨€¨w¨€¨w¨w¨w¨€¨€¨w¨€¨w¨€¨w¨€¨w¨€¨w¨€¨€¨w¨€¨w¨€¨€¨€¨€¨w¨w¨w¨w¨€¨€¨w¨€¨w¨w¨€" << endl;
-			cout << "¨€¨€¨€¨€¨€¨€¨w¨w¨€¨€¨w¨w¨€¨€¨€¨w¨€¨w¨€¨w¨€¨€¨w¨€¨w¨€¨€¨€¨w¨w¨w¨€¨€¨€¨€¨€¨€¨w¨w¨€" << endl;
-			cout << "¨w¨w¨€¨w¨w¨€¨w¨€¨€¨w¨w¨w¨w¨w¨€¨w¨€¨w¨€¨w¨€¨€¨w¨€¨w¨€¨€¨€¨€¨w¨w¨€¨w¨€¨€¨€¨w¨w¨w¨€" << endl;
-			cout << "¨€¨€¨€¨€¨€¨€¨w¨€¨€¨€¨€¨w¨€¨€¨€¨w¨€¨w¨€¨w¨€¨€¨w¨€¨w¨€¨€¨w¨€¨€¨w¨€¨€¨€¨€¨w¨€¨w¨€¨€" << endl;
-			cout << "							¡¡£Á£Ñ£Õ£Á¡¡£±£°¡¡£Ğ£ò£ï£ê£å£ã£ô" << endl;
+			cout << "Byï¼›AWEknl and..." << endl << endl;
+			cout << "â–ˆâ•³â–ˆâ–ˆâ–ˆâ–ˆâ•³â–ˆâ–ˆâ–ˆâ–ˆâ•³â–ˆâ•³â–ˆâ•³â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•³â–ˆâ–ˆâ•³â•³â•³â–ˆâ–ˆâ–ˆâ–ˆâ•³â–ˆâ–ˆ" << endl;
+			cout << "â–ˆâ•³â–ˆâ–ˆâ•³â–ˆâ•³â•³â•³â–ˆâ–ˆâ•³â–ˆâ•³â–ˆâ•³â–ˆâ•³â–ˆâ•³â–ˆâ–ˆâ•³â–ˆâ•³â–ˆâ–ˆâ–ˆâ–ˆâ•³â•³â•³â•³â–ˆâ–ˆâ•³â–ˆâ•³â•³â–ˆ" << endl;
+			cout << "â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•³â•³â–ˆâ–ˆâ•³â•³â–ˆâ–ˆâ–ˆâ•³â–ˆâ•³â–ˆâ•³â–ˆâ–ˆâ•³â–ˆâ•³â–ˆâ–ˆâ–ˆâ•³â•³â•³â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•³â•³â–ˆ" << endl;
+			cout << "â•³â•³â–ˆâ•³â•³â–ˆâ•³â–ˆâ–ˆâ•³â•³â•³â•³â•³â–ˆâ•³â–ˆâ•³â–ˆâ•³â–ˆâ–ˆâ•³â–ˆâ•³â–ˆâ–ˆâ–ˆâ–ˆâ•³â•³â–ˆâ•³â–ˆâ–ˆâ–ˆâ•³â•³â•³â–ˆ" << endl;
+			cout << "â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•³â–ˆâ–ˆâ–ˆâ–ˆâ•³â–ˆâ–ˆâ–ˆâ•³â–ˆâ•³â–ˆâ•³â–ˆâ–ˆâ•³â–ˆâ•³â–ˆâ–ˆâ•³â–ˆâ–ˆâ•³â–ˆâ–ˆâ–ˆâ–ˆâ•³â–ˆâ•³â–ˆâ–ˆ" << endl;
+			cout << "							ã€€ï¼¡ï¼±ï¼µï¼¡ã€€ï¼‘ï¼ã€€ï¼°ï½’ï½ï½Šï½…ï½ƒï½”" << endl;
 			file << "TYPE:2	START OF TIME:";
 			jikan();
 			file << dt << endl;
 			continue;
-		case 3://¼ÆËãÆ÷
-			file << "TYPE:3	START OF TIME:";//¼ÇÂ¼ÈÕÖ¾
+		case 3://è®¡ç®—å™¨
+			file << "TYPE:3	START OF TIME:";//è®°å½•æ—¥å¿—
 			jikan();
 			file << dt << endl;
-			suba(); ad();//Êä³ö¼ÆËãÆ÷
-			cout << "			¼ÆËãÆ÷			" << endl; ad();
-			cout << "ÇëÊäÈëµÚÒ»¸öÊı:";
+			suba(); ad();//è¾“å‡ºè®¡ç®—å™¨
+			cout << "			è®¡ç®—å™¨			" << endl; ad();
+			cout << "è¯·è¾“å…¥ç¬¬ä¸€ä¸ªæ•°:";
 			cin >> b; ad();
-			cout << "ÇëÊäÈëµÚ¶ş¸öÊı:";
+			cout << "è¯·è¾“å…¥ç¬¬äºŒä¸ªæ•°:";
 			cin >> c; ad();
-			cout << "+(¼Ó1) -(¼õ2) *(³Ë3) /(³ı4) **(³Ë·½5)[³Ë·½Ê¹ÓÃµÚÒ»¸öÊı] :";
+			cout << "+(åŠ 1) -(å‡2) *(ä¹˜3) /(é™¤4) **(ä¹˜æ–¹5)[ä¹˜æ–¹ä½¿ç”¨ç¬¬ä¸€ä¸ªæ•°] :";
 			cin >> d1; ad();
 			switch (d1)
 			{
-			case 1://¼Ó·¨
+			case 1://åŠ æ³•
 				cout << "result:";
 				cout << c + b << endl;
 				continue;
-			case 2://¼õ·¨
+			case 2://å‡æ³•
 				cout << "result:";
 				cout << c - b << endl;
 				continue;
-			case 3://³Ë·¨
+			case 3://ä¹˜æ³•
 				cout << "result:";
 				cout << c * b << endl;
 				continue;
-			case 4://³ı·¨
+			case 4://é™¤æ³•
 				cout << "result:";
 				cout << c / b << endl;
 				continue;
-			case 5://³Ë·½
+			case 5://ä¹˜æ–¹
 				cout << "result:";
 				cout << b * b << endl;
 				continue;
-			default://ÎŞĞ§ÊäÈë
+			default://æ— æ•ˆè¾“å…¥
 				cout << "No result" << endl;
 				continue;
 			}
 			continue;
-		case 4://Çå¿ÕÈÕÖ¾ÎÄ¼ş
+		case 4://æ¸…ç©ºæ—¥å¿—æ–‡ä»¶
 			suba(); ad();
-			cout << "ÕıÔÚÇå¿Õ" << endl; ad();
+			cout << "æ­£åœ¨æ¸…ç©º" << endl; ad();
 			out.open("reply.txt", ios::trunc);
-			cout << "Íê³É" << endl;
+			cout << "å®Œæˆ" << endl;
 			continue;
-		case 5://Çå¿Õ¿ØÖÆÌ¨ÄÚÈİ
+		case 5://æ¸…ç©ºæ§åˆ¶å°å†…å®¹
 			system("cls");
 			cout << "ygzymmkdrj,aqua" << endl;
 			jikan();
-			cout << "Æô¶¯Ê±¼ä£º" << dt << endl;//Êä³öÆô¶¯Ê±¼ä
+			cout << "å¯åŠ¨æ—¶é—´ï¼š" << dt << endl;//è¾“å‡ºå¯åŠ¨æ—¶é—´
 			file << "found in cache:	" << dt << endl;
 			continue;
-		case 6://¶ş´Î·½³Ì
+		case 6://äºŒæ¬¡æ–¹ç¨‹
 			file << "TYPE:6	START OF TIME:";
 			jikan();
 			file << dt << endl;
 			suba(); ad();
-			cout << "¶ş´Î·½³ÌÇó½â£¬ax^2+bx+c=0" << endl; ad();
-			cout << "ÇëÊäÈë a£º";
+			cout << "äºŒæ¬¡æ–¹ç¨‹æ±‚è§£ï¼Œax^2+bx+c=0" << endl; ad();
+			cout << "è¯·è¾“å…¥ aï¼š";
 			cin >> a; ad();
-			cout << "ÇëÊäÈë b£º";
+			cout << "è¯·è¾“å…¥ bï¼š";
 			cin >> b; ad();
-			cout << "ÇëÊäÈë c: ";
+			cout << "è¯·è¾“å…¥ c: ";
 			cin >> c;
 			discriminant = b * b - 4 * a * c;
-			if (discriminant > 0) //Èç¹ûÅĞ±ğÊ½´óÓÚ0
+			if (discriminant > 0) //å¦‚æœåˆ¤åˆ«å¼å¤§äº0
 			{
 				x1 = (-b + sqrt(discriminant)) / (2 * a);
 				x2 = (-b - sqrt(discriminant)) / (2 * a); ad();
-				cout << "Êµ¸ù²»Í¬" << endl; ad();
+				cout << "å®æ ¹ä¸åŒ" << endl; ad();
 				cout << "x1 = " << x1 << endl; ad();
 				cout << "x2 = " << x2 << endl;
 				cout << "sqrt = b * b - 4 * a * c = " << discriminant << endl;
 			}
-			else if (discriminant == 0) //Èç¹ûÅĞ±ğÊ½µÈÓÚ0
+			else if (discriminant == 0) //å¦‚æœåˆ¤åˆ«å¼ç­‰äº0
 			{
-				cout << "Êµ¸ùÏàÍ¬£º" << endl; ad();
+				cout << "å®æ ¹ç›¸åŒï¼š" << endl; ad();
 				x1 = (-b + sqrt(discriminant)) / (2 * a); ad();
 				cout << "x1 = x2 =" << x1 << endl;
 				cout << "sqrt = b * b - 4 * a * c = " << discriminant << endl;
 			}
-			else if (discriminant < 0) //Èç¹ûÅĞ±ğÊ½Ğ¡ÓÚ0
+			else if (discriminant < 0) //å¦‚æœåˆ¤åˆ«å¼å°äº0
 			{
-				cout << "Êµ¸ùÎªĞé¸ù" << endl; ad();
-				cout << "ÅĞ±ğÊ½Îª¸ºÊı£¬ÎŞ·¨Çó³öÊµ¸ù" << endl; ad();
-				cout << "¼ÆËãĞé¸ù£º" << endl; ad();
-				discriminant = -discriminant; //½«ÅĞ±ğÊ½È¡¾ø¶ÔÖµ
+				cout << "å®æ ¹ä¸ºè™šæ ¹" << endl; ad();
+				cout << "åˆ¤åˆ«å¼ä¸ºè´Ÿæ•°ï¼Œæ— æ³•æ±‚å‡ºå®æ ¹" << endl; ad();
+				cout << "è®¡ç®—è™šæ ¹ï¼š" << endl; ad();
+				discriminant = -discriminant; //å°†åˆ¤åˆ«å¼å–ç»å¯¹å€¼
 				cout << "sqrt = b * b - 4 * a * c = " << -discriminant << endl;
 			}
 			else
 			{
-				cout << "No result" << endl;//Èç¹ûÊäÈë²»ºÏ·¨
+				cout << "No result" << endl;//å¦‚æœè¾“å…¥ä¸åˆæ³•
 				continue;
 			}
 			ad();
-			cout << "¸Ã¶ş´Î·½³ÌµÄ¶¥µã×ø±êÎª" << endl; ad();//Êä³ö¶¥µã×ø±ê
+			cout << "è¯¥äºŒæ¬¡æ–¹ç¨‹çš„é¡¶ç‚¹åæ ‡ä¸º" << endl; ad();//è¾“å‡ºé¡¶ç‚¹åæ ‡
 			zhox = -b / (2 * a);
 			zhoy = (4 * a * c - b * b) / (4 * a);
 			cout << zhox << "," << zhoy << endl;
 			continue;
-		case 7://¶ş´Î·½³Ì×é
+		case 7://äºŒæ¬¡æ–¹ç¨‹ç»„
 			file << "TYPE:7	START OF TIME:";
 			jikan();
 			file << dt << endl;
 			suba(); ad();
-			cout << "¶şÔªÒ»´Î·½³Ì×éÇó½â£¬ax+by=e,cx+dy=f" << endl; ad();
-			cout << "ÇëÊäÈë a£º";
+			cout << "äºŒå…ƒä¸€æ¬¡æ–¹ç¨‹ç»„æ±‚è§£ï¼Œax+by=e,cx+dy=f" << endl; ad();
+			cout << "è¯·è¾“å…¥ aï¼š";
 			cin >> a; ad();
-			cout << "ÇëÊäÈë b£º";
+			cout << "è¯·è¾“å…¥ bï¼š";
 			cin >> b; ad();
-			cout << "ÇëÊäÈë e: ";
+			cout << "è¯·è¾“å…¥ e: ";
 			cin >> e; ad();
-			cout << "ÇëÊäÈë c: ";
+			cout << "è¯·è¾“å…¥ c: ";
 			cin >> c; ad();
-			cout << "ÇëÊäÈë d: ";
+			cout << "è¯·è¾“å…¥ d: ";
 			cin >> d; ad();
-			cout << "ÇëÊäÈë f: ";
+			cout << "è¯·è¾“å…¥ f: ";
 			cin >> f; ad();
 			if (a * d - b * c == 0)
 			{
-				cout << "ÎŞÇî½â" << endl; ad();
+				cout << "æ— ç©·è§£" << endl; ad();
 			}
 			else
 			{
 				deg = a * d - b * c;
 				x = (d * e - b * f) / deg;
-				y = (a * f - c * e) / deg;//¼ÆËãxºÍyµÄÖµ
-				cout << "xÎª";
+				y = (a * f - c * e) / deg;//è®¡ç®—xå’Œyçš„å€¼
+				cout << "xä¸º";
 				cout << x << endl; ad();
-				cout << "yÎª";
-				cout << y << endl; //Êä³öxºÍyµÄÖµ
+				cout << "yä¸º";
+				cout << y << endl; //è¾“å‡ºxå’Œyçš„å€¼
 			}
 			continue;
-		case 8:	//°æ±¾ĞÅÏ¢
+		case 8:	//ç‰ˆæœ¬ä¿¡æ¯
 			suba(); ad();
-			cout << "°æ±¾ĞÅÏ¢ AQUA 10 last	" << endl; ad();
+			cout << "ç‰ˆæœ¬ä¿¡æ¯ AQUA 10 last	" << endl; ad();
 			system("pause");
 			continue;
-		case 9:	//ÍË³ö
+		case 9:	//é€€å‡º
 			suba(); ad();
 			cout << "exit" << endl; ad();
 			break;
-		case 10:	//ÍË³ö
+		case 10:	//é€€å‡º
 			suba(); ad();
 			cout << "exit" << endl; ad();
 			break;
-		default://·Ç·¨ÊäÈë
+		default://éæ³•è¾“å…¥
 			cout << "exit type illegality string" << endl;
 			file << "EXIT: type illegality string";
 			jikan();
@@ -274,4 +274,4 @@ int main()
 	system("exit");
 	return 0;
 }
-//AWEknl ygzymmkdrj,class10 last-aqua line 272
+//AWEknl ygzymmkdrj,class10 last-aqua line 277
