@@ -1,0 +1,6 @@
+﻿cl : 命令行  warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  stdafx.cpp
+cl : 命令行  warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  AQUA.cpp
+AQUA.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  AQUA.vcxproj -> C:\Users\Administrator\Documents\Visual Studio 2022\Projects\AQUA zeno\Debug\AQUA.exe
